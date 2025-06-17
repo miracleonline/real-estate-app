@@ -5,7 +5,7 @@ interface FloorSelectorProps {
   onSelect: (floor: number) => void;
 }
 
-const FloorSelector: React.FC<FloorSelectorProps> = ({ tower, onSelect }) => {
+const FloorSelector: React.FC<FloorSelectorProps> = ({ /* tower, */ onSelect }) => {
   const floors = Array.from({ length: 15 }, (_, i) => 15 - i);
 
   return (

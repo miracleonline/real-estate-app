@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import TowerSelector from './components/TowerSelector';
 import FloorSelector from './components/FloorSelector';
 import ApartmentList from './components/ApartmentList';
